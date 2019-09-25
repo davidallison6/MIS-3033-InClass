@@ -1,0 +1,14 @@
+﻿<Window x:Class="JSONderulo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSONderulo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TBQuote" HorizontalAlignment="Left" Height="82" Margin="385,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Button x:Name="BQuote" Content="Get Quote" HorizontalAlignment="Left" Margin="113,143,0,0" VerticalAlignment="Top" Width="129" Height="82" Click="BQuote_Click"/>
+
+    </Grid>
+</Window>
